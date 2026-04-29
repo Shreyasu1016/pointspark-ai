@@ -44,6 +44,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "PointsIQ — AI Advisor for Credit Card Rewards" },
+      { name: "description", content: "PointsIQ is an AI-powered rewards advisor website that helps users maximize credit and debit card points." },
+      { property: "og:description", content: "PointsIQ is an AI-powered rewards advisor website that helps users maximize credit and debit card points." },
+      { name: "twitter:description", content: "PointsIQ is an AI-powered rewards advisor website that helps users maximize credit and debit card points." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fb534ab8-4a0d-4724-916a-6ac3911dec18/id-preview-114859ff--fc73bb67-636f-4439-962c-ec785d2fdf0d.lovable.app-1777481788952.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/fb534ab8-4a0d-4724-916a-6ac3911dec18/id-preview-114859ff--fc73bb67-636f-4439-962c-ec785d2fdf0d.lovable.app-1777481788952.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
